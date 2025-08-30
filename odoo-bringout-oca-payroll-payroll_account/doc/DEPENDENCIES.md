@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [payroll](../../../../odoo-bringout-oca-payroll-payroll)
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [payroll](https://github.com/bringout/oca-payroll)
+- [account](https://github.com/bringout/oca-ocb-accounting)

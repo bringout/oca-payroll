@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_contract](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_contract)
-- [payroll](../../../../odoo-bringout-oca-payroll-payroll)
+- [hr_contract](https://github.com/bringout/oca-ocb-hr)
+- [payroll](https://github.com/bringout/oca-payroll)
