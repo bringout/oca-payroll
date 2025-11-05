@@ -13,73 +13,73 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: payroll_account
 #: model_terms:ir.ui.view,arch_db:payroll_account.hr_contract_view_form
-#: model_terms:ir.ui.view,arch_db:payroll_account.hr_salary_rule_view_form
 msgid "Accounting"
 msgstr "Računovodstvo"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip__move_id
 msgid "Accounting Entry"
 msgstr "Temeljnica"
 
+# taken from hr.po
 #. module: payroll_account
 #. odoo-python
-#: code:addons/payroll_account/models/hr_payslip.py:0
-#: code:addons/payroll_account/models/hr_payslip.py:0
-#: code:addons/payroll_account/models/hr_payslip.py:0
-#: code:addons/payroll_account/models/hr_payslip.py:0
+#: code:addons/payroll_account/models/hr_payslip.py
 #, python-format
 msgid "Adjustment Entry"
 msgstr "Knjiženje ispravka"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_contract__analytic_account_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__analytic_account_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__analytic_account_id
 msgid "Analytic Account"
 msgstr "Analitički konto"
 
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__tax_base_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__tax_base_id
 msgid "Base"
 msgstr "Osnova"
 
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__company_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__account_credit
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__account_credit
 msgid "Credit Account"
 msgstr "Kreditni račun"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip__date
 msgid "Date Account"
 msgstr "Datum računa"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__account_debit
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__account_debit
 msgid "Debit Account"
 msgstr "Debitni račun"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model,name:payroll_account.model_hr_contract
 msgid "Employee Contract"
 msgstr "Ugovor zaposlenog"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model,name:payroll_account.model_hr_payslip_employees
 msgid "Generate payslips for all selected employees"
 msgstr "Generiši obračunske listiće za sve odabrane zaposlene"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,help:payroll_account.field_hr_payslip__date
 msgid "Keep empty to use the period of the validation(Payslip) date."
@@ -90,38 +90,41 @@ msgstr "Ostavite prazno za koirištenje perioda prema datumu platne liste."
 msgid "Payslip"
 msgstr "Obračunski listić"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model,name:payroll_account.model_hr_payslip_run
 msgid "Payslip Batches"
 msgstr "Skupni obračunski listići"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model,name:payroll_account.model_hr_payslip_line
 msgid "Payslip Line"
-msgstr "Stavke obračunskih listića"
+msgstr "Stavke platne liste"
 
+# taken from hr.po
 #. module: payroll_account
 #. odoo-python
-#: code:addons/payroll_account/models/hr_payslip.py:0
+#: code:addons/payroll_account/models/hr_payslip.py
 #, python-format
 msgid "Payslip of %s"
 msgstr "Platna lista %s"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_contract__journal_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_payslip__journal_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_run__journal_id
 msgid "Salary Journal"
-msgstr "Dnevnik plaća"
+msgstr "Žurnal obračuna plate"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model,name:payroll_account.model_hr_salary_rule
 msgid "Salary Rule"
 msgstr "Pravilo obračuna plate"
 
+# taken from hr.po
 #. module: payroll_account
 #: model:ir.model.fields,field_description:payroll_account.field_hr_payslip_line__account_tax_id
-#: model:ir.model.fields,field_description:payroll_account.field_hr_salary_rule__account_tax_id
 msgid "Tax"
 msgstr "Porez"
 
@@ -131,16 +134,20 @@ msgstr "Porez"
 msgid "Tax lines"
 msgstr "Porezne stavke"
 
+# taken from hr.po
 #. module: payroll_account
 #. odoo-python
-#: code:addons/payroll_account/models/hr_payslip.py:0
+#: code:addons/payroll_account/models/hr_payslip.py
 #, python-format
 msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
 msgstr "Dnevnik troškova \"%s\" nema ispravno definiran potražni konto!"
 
+# taken from hr.po
 #. module: payroll_account
 #. odoo-python
-#: code:addons/payroll_account/models/hr_payslip.py:0
+#: code:addons/payroll_account/models/hr_payslip.py
 #, python-format
 msgid "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-msgstr "Dnevnik troškova \"%s\" nema ispravno definiran dugovni \nkonto!"
+msgstr ""
+"Dnevnik troškova \"%s\" nema ispravno definiran dugovni \n"
+"konto!"

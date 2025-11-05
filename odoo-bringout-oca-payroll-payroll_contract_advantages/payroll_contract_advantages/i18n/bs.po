@@ -25,14 +25,14 @@ msgstr "Predložak pogodnosti"
 
 #. module: payroll_contract_advantages
 #. odoo-python
-#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py:0
+#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py
 #, python-format
 msgid "Advantage amount can't be greater than upper bound limit."
 msgstr "Iznos pogodnosti ne može biti veći od gornje granice."
 
 #. module: payroll_contract_advantages
 #. odoo-python
-#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py:0
+#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py
 #, python-format
 msgid "Advantage amount can't be less than lower bound limit."
 msgstr "Iznos pogodnosti ne može biti manji od donje granice."
@@ -44,7 +44,6 @@ msgstr "Iznos"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__advantage_template_code
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__code
 msgid "Code"
 msgstr "Šifra"
 
@@ -55,25 +54,21 @@ msgstr "Ugovor"
 
 #. module: payroll_contract_advantages
 #: model:ir.actions.act_window,name:payroll_contract_advantages.hr_contract_advantage_template_action
-#: model:ir.ui.menu,name:payroll_contract_advantages.hr_contract_advantage_template_menu_action
 msgid "Contract Advantage Templates"
 msgstr "Predlošci pogodnosti ugovora"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract__advantages_ids
-#: model_terms:ir.ui.view,arch_db:payroll_contract_advantages.advantages_hr_contract_view_form
 msgid "Contract Advantages"
 msgstr "Pogodnosti ugovora"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__create_uid
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__create_date
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -84,7 +79,6 @@ msgstr "Zadana vrijednost"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__display_name
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -105,37 +99,31 @@ msgstr "Pogodnosti zaposlenika na ugovoru"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__id
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__id
 msgid "ID"
 msgstr "ID"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage____last_update
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_uid
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_date
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__advantage_lower_bound
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__lower_bound
 msgid "Lower Bound"
 msgstr "Donja granica"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,help:payroll_contract_advantages.field_hr_contract_advantage__advantage_lower_bound
-#: model:ir.model.fields,help:payroll_contract_advantages.field_hr_contract_advantage_template__lower_bound
 msgid "Lower bound authorized by the employer for this advantage"
 msgstr "Donja granica koju je ovlastio poslodavac za ovu pogodnost"
 
@@ -151,12 +139,10 @@ msgstr "Obračunski listić"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__advantage_upper_bound
-#: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__upper_bound
 msgid "Upper Bound"
 msgstr "Gornja granica"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,help:payroll_contract_advantages.field_hr_contract_advantage__advantage_upper_bound
-#: model:ir.model.fields,help:payroll_contract_advantages.field_hr_contract_advantage_template__upper_bound
 msgid "Upper bound authorized by the employer for this advantage"
 msgstr "Gornja granica koju je ovlastio poslodavac za ovu pogodnost"

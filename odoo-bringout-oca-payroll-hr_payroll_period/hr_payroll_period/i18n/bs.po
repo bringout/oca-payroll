@@ -15,34 +15,33 @@ msgstr ""
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "%(name)s Period #%(number)s"
 msgstr "%(name)s Period #%(number)s"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "%s day of the current period"
 msgstr "%s dan trenutnog perioda"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "%s day of the next period"
 msgstr "%s dan sljedećeg perioda"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__active
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__active
 msgid "Active"
 msgstr "Aktivan"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Annually (1)"
 msgstr "Godišnje (1)"
@@ -54,14 +53,14 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Bi-monthly (6)"
 msgstr "Dvomjesečno (6)"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Bi-weekly (26)"
 msgstr "Dvosedmično (26)"
@@ -73,17 +72,11 @@ msgstr "Zatvori period"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_fiscalyear__state__done
-#: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_period__state__done
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_search
 msgid "Closed"
 msgstr "Zatvoreno"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__company_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_employees__company_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_run__company_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__company_id
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_filter
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -94,13 +87,11 @@ msgstr "Potvrdi"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_employee_base__contract_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_employee_public__contract_id
 msgid "Contract"
 msgstr "Ugovor"
 
 #. module: hr_payroll_period
 #: model:ir.actions.server,name:hr_payroll_period.ir_cron_hr_payroll_period_ir_actions_server
-#: model:ir.cron,cron_name:hr_payroll_period.ir_cron_hr_payroll_period
 msgid "Create Next Fiscal Year"
 msgstr "Kreiraj sljedeću fiskalnu godinu"
 
@@ -111,13 +102,11 @@ msgstr "Kreiraj periode"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__create_uid
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__create_date
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -133,7 +122,7 @@ msgstr "Trenutni ugovor zaposlenika"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Daily (365)"
 msgstr "Dnevno (365)"
@@ -145,19 +134,17 @@ msgstr "date.range.type"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip__date_payment
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_run__date_payment
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__date_payment
 msgid "Date of Payment"
 msgstr "Datum plaćanja"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid ""
 "Date stop cannot be sooner than the date start\n"
 "                                "
-msgstr ""
+msgstr "Datum završetka ne može biti ranije od datuma početka\n"
 
 #. module: hr_payroll_period
 #: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_date_range_type_hr_form_view
@@ -176,13 +163,11 @@ msgstr "Definiše učestalos isplate plate."
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__display_name
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_fiscalyear__state__draft
-#: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_period__state__draft
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -198,28 +183,25 @@ msgstr "Ugovor zaposlenog"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__date_end
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__date_end
 msgid "End date"
 msgstr "Završni datum"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Fifth"
 msgstr "Peti"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "First"
 msgstr "Prvi"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__fiscalyear_id
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_form
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_search
 msgid "Fiscal Year"
 msgstr "Fiskalna godina"
 
@@ -240,7 +222,7 @@ msgstr "Sljedeća sedmica"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Fourth"
 msgstr "Četvrti"
@@ -252,8 +234,7 @@ msgstr "Petak"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_form
+#: code:addons/hr_payroll_period/models/hr_payslip_run.py
 #, python-format
 msgid "Generate Payslips"
 msgstr "Generiši obračunske listiće"
@@ -265,14 +246,11 @@ msgstr "Generiši obračunske listiće za sve odabrane zaposlene"
 
 #. module: hr_payroll_period
 #: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_filter
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_search
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_period_search
 msgid "Group By..."
 msgstr "Grupiši po..."
 
 #. module: hr_payroll_period
 #: model:date.range.type,name:hr_payroll_period.date_range_hr_fiscal_year
-#: model:ir.model,name:hr_payroll_period.model_hr_fiscalyear
 msgid "HR Fiscal Year"
 msgstr "HR Fiskalna godina"
 
@@ -284,11 +262,10 @@ msgstr "HR Period platnih lista"
 #. module: hr_payroll_period
 #: model:date.range.type,name:hr_payroll_period.date_range_hr_period
 msgid "HR Period"
-msgstr "HR Period"
+msgstr "HR period"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__id
 msgid "ID"
 msgstr "ID"
 
@@ -304,26 +281,23 @@ msgstr "Je li HR period?"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Last"
 msgstr "Zadnji"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear____last_update
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__write_uid
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__write_date
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -334,15 +308,13 @@ msgstr "Ponedjeljak"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Monthly (12)"
 msgstr "Mjesečno (12)"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__name
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_run__name
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -353,8 +325,6 @@ msgstr "Broj"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_fiscalyear__state__open
-#: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_period__state__open
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_search
 msgid "Open"
 msgstr "Otvori"
 
@@ -365,20 +335,16 @@ msgstr "Otvori period"
 
 #. module: hr_payroll_period
 #: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_filter
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_payslip_filter
 msgid "Payment Date"
 msgstr "Datum plaćanja"
 
 #. module: hr_payroll_period
 #: model:ir.actions.act_window,name:hr_payroll_period.action_hr_fiscalyear
-#: model:ir.ui.menu,name:hr_payroll_period.menu_action_hr_fiscalyear
 msgid "Payroll Fiscal Years"
 msgstr "Fiskalne godine za platne liste"
 
 #. module: hr_payroll_period
 #: model:ir.actions.act_window,name:hr_payroll_period.action_hr_period
-#: model:ir.ui.menu,name:hr_payroll_period.menu_action_hr_period
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_period_form
 msgid "Payroll Periods"
 msgstr "Periodi platnih lista"
 
@@ -394,21 +360,16 @@ msgstr "Skupni obračunski listići"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__payslip_ids
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_period_form
 msgid "Payslips"
 msgstr "Obračunski listići"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip__hr_period_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_run__hr_period_id
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_form
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_period_search
 msgid "Period"
 msgstr "Period"
 
 #. module: hr_payroll_period
 #: model:ir.actions.act_window,name:hr_payroll_period.date_range_type_hr_action
-#: model:ir.ui.menu,name:hr_payroll_period.menu_date_range_type_action
 msgid "Period Types"
 msgstr "Tipovi perioda"
 
@@ -419,7 +380,7 @@ msgstr "Periodi"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Quarterly (4)"
 msgstr "Tromjesečno (4)"
@@ -441,15 +402,11 @@ msgstr "Subota"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__schedule_pay
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_employees__schedule_pay
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_payslip_run__schedule_pay
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__schedule_pay
 msgid "Schedule Pay"
 msgstr "Rasporedna plata"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_contract__schedule_pay
-#: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_filter
 msgid "Scheduled Pay"
 msgstr "Zakazana isplata"
 
@@ -465,7 +422,7 @@ msgstr "Traži period"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Second"
 msgstr "Sekunda"
@@ -477,14 +434,14 @@ msgstr "Druga sljedeća sedmica"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Semi-annually (2)"
 msgstr "Polugodišnje (2)"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Semi-monthly (24)"
 msgstr "Polumjesečno (24)"
@@ -496,13 +453,11 @@ msgstr "Stavi u pripremu"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__date_start
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__date_start
 msgid "Start date"
 msgstr "Početni datum"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__state
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__state
 msgid "Status"
 msgstr "Status"
 
@@ -513,49 +468,57 @@ msgstr "Nedjelja"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,help:hr_payroll_period.field_hr_fiscalyear__active
-#: model:ir.model.fields,help:hr_payroll_period.field_hr_period__active
 msgid ""
 "The active field allows you to hide the date range without removing it."
 msgstr ""
+"Aktivno polje vam omogućava da sakrijete raspon datuma bez njegovog "
+"brisanja."
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
+#: code:addons/hr_payroll_period/models/hr_payslip_run.py
 #, python-format
 msgid ""
 "The company on the selected period must be the same as the company on the "
 "payslip batch."
 msgstr ""
+"Kompanija na odabranom periodu mora biti ista kao kompanija na seriji "
+"platnih listova."
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_payslip.py:0
+#: code:addons/hr_payroll_period/models/hr_payslip.py
 #, python-format
 msgid ""
 "The company on the selected period must be the same as the company on the "
 "payslip."
 msgstr ""
+"Kompanija na odabranom periodu mora biti ista kao kompanija na platnom "
+"listu."
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
+#: code:addons/hr_payroll_period/models/hr_payslip_run.py
 #, python-format
 msgid "The payslip batch %s still has unconfirmed payslips."
 msgstr "Serija platnih listova %s još uvijek ima nepotvrđene platne listove."
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
+#: code:addons/hr_payroll_period/models/hr_payslip_run.py
 #, python-format
 msgid ""
 "The schedule on the selected period\n"
 "                        must be the same as the schedule on the\n"
 "                        payslip batch."
 msgstr ""
+"Raspored na odabranom periodu\n"
+"                        mora biti isti kao raspored na\n"
+"                        seriji platnih listova."
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Third"
 msgstr "Treći"
@@ -577,13 +540,11 @@ msgstr "Utorak"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__type_id
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__type_id
 msgid "Type"
 msgstr "Tip"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__type_name
-#: model:ir.model.fields,field_description:hr_payroll_period.field_hr_period__type_name
 msgid "Type Name"
 msgstr "Upiši ime"
 
@@ -604,21 +565,22 @@ msgstr "Dan u sedmici za plaćanje"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "Weekly (52)"
 msgstr "Sedmično (52)"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_period.py:0
+#: code:addons/hr_payroll_period/models/hr_period.py
 #, python-format
 msgid "You can not set to draft a period that already has payslips computed"
-msgstr "Ne možete postaviti na nacrt period koji već ima računate platne liste"
+msgstr ""
+"Ne možete postaviti na nacrt period koji već ima računate platne liste"
 
 #. module: hr_payroll_period
 #. odoo-python
-#: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
+#: code:addons/hr_payroll_period/models/hr_fiscal_year.py
 #, python-format
 msgid "You must create periods before confirming the fiscal year."
 msgstr "Morate kreirati periode prije potvrde fiskalne godine."

@@ -26,10 +26,17 @@ msgid ""
 "              \n"
 "          "
 msgstr ""
+"\n"
+"              <html>\n"
+"                  <head></head>\n"
+"                  <body style=\"margin: 0; padding: 0;\">\n"
+"                    <table style=\"padding:20px;background-color:#ededed; border-collapse:separate\" width=\"100%\" cellpadding=\"0\" border=\"0\"><tbody><!-- HEADER --><tr><td style=\"min-width:590px\" align=\"center\"><table style=\"min-width:590px;background-color:#fff; padding:20px; border-collapse:separate\" width=\"590\" cellpadding=\"0\" border=\"0\"><tbody><tr><td style=\"text-align:right\" valign=\"middle\"><img src=\"/logo.png\" style=\"padding:0px;margin:0px; height:auto; width:80px\" alt=\"{{object.company_id.name}}\"></td></tr><tr><td style=\"text-align:left\" valign=\"middle\"><h2 style=\"color:rgb(28, 130, 156)\"><font style=\"color:rgb(107, 175, 103);\">Plata <t t-out=\"ctx.get('subject')\" contenteditable=\"false\" data-oe-t-inline=\"true\"/></font></h2></td></tr></tbody></table></td></tr><!-- CONTENT --><tr><td style=\"min-width:590px\" align=\"center\"><table style=\"min-width:590px;background-color:rgb(255, 255, 255); padding:20px; border-collapse:separate\" width=\"590\" cellpadding=\"0\" border=\"0\"><tbody><tr><td style=\"font-family:Arial,Helvetica,sans-serif;color:#555; font-size:14px\" valign=\"top\"><p> </p><p>Zdravo <t t-out=\"object.name\" contenteditable=\"false\" data-oe-t-inline=\"true\"/>,</p><br><p>Šaljemo vam platu sa predmetom <t t-out=\"ctx.get('subject')\" contenteditable=\"false\" data-oe-t-inline=\"true\"/>.<br></p></td></tr><tr><td style=\"font-family:Arial,Helvetica,sans-serif;color:#555; font-size:14px\" valign=\"top\"><br></td></tr><tr><td style=\"font-family:Arial,Helvetica,sans-serif;color:#555; font-size:14px\" valign=\"top\"><br><p></p></td></tr></tbody></table></td></tr><!-- FOOTER --><tr><td style=\"min-width:590px\" align=\"center\"><table style=\"min-width:590px;background-color:#95ce3f; padding:20px; border-collapse:separate\" width=\"590\" cellpadding=\"0\" border=\"0\"><tbody> </tbody></table></td></tr></tbody></table>\n"
+"                    <p></p>\n"
+"                  </html>\n"
+" \n"
 
 #. module: hr_payroll_document
 #: model:ir.model,name:hr_payroll_document.model_ir_attachment
-#: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment__payrol_rel
 msgid "Attachment"
 msgstr "Prilog"
 
@@ -50,7 +57,6 @@ msgstr "Kreiraj datum"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__create_uid
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
@@ -61,20 +67,17 @@ msgstr "Kreirano"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__display_name
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: hr_payroll_document
 #: model:ir.model,name:hr_payroll_document.model_hr_employee
-#: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__employee
 msgid "Employee"
 msgstr "Zaposleni"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py
 #, python-format
 msgid "Employees not found"
 msgstr "Radnici nisu pronađeni"
@@ -83,18 +86,16 @@ msgstr "Radnici nisu pronađeni"
 #: model:ir.model.fields,help:hr_payroll_document.field_payroll_management_wizard__subject
 msgid ""
 "Enter the title of the payroll whether it is the month, week, day, etc."
-msgstr ""
+msgstr "Unesite naslov plate bilo da je to mjesec, sedmica, dan, itd."
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__id
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__id
 msgid "ID"
 msgstr "ID"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py
 #, python-format
 msgid "IDs whose employee has not been found: "
 msgstr "ID-ovi čiji radnik nije pronađen: "
@@ -106,39 +107,36 @@ msgstr "Identifikacioni ID"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom____last_update
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__write_uid
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__write_date
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py
 #, python-format
 msgid "Missing pdf file signature"
 msgstr "Nedostaje potpis PDF datoteke"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py
 #, python-format
 msgid "Payroll"
 msgstr "Obračun plata"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py
 #, python-format
 msgid "Payroll "
 msgstr "Plata "
@@ -170,26 +168,19 @@ msgstr "Plate"
 
 #. module: hr_payroll_document
 #: model:ir.actions.act_window,name:hr_payroll_document.payrolls_management_wizard_action
-#: model:ir.ui.menu,name:hr_payroll_document.payrolls_management_wizard_menu_action
 msgid "Payrolls Management"
 msgstr "Upravljanje platama"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py
 #, python-format
 msgid "Payrolls sent"
 msgstr "Plate poslane"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py:0
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/tests/test_hr_payroll_document.py
 #, python-format
 msgid "Payrolls sent to employees correctly"
 msgstr "Plate poslane radnicima uspješno"
@@ -201,20 +192,19 @@ msgstr "Pošalji"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__subject
-#: model:ir.model.fields,field_description:hr_payroll_document.field_payroll_management_wizard__subject
 msgid "Subject"
 msgstr "Tema"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/models/hr_employee.py:0
+#: code:addons/hr_payroll_document/models/hr_employee.py
 #, python-format
 msgid "The field identification ID is not valid"
 msgstr "Polje identifikaciona ID nije važeći"
 
 #. module: hr_payroll_document
 #. odoo-python
-#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py:0
+#: code:addons/hr_payroll_document/wizard/payroll_management_wizard.py
 #, python-format
 msgid "You must to filled country field of company"
 msgstr "Morate popuniti polje zemlja kompanije"

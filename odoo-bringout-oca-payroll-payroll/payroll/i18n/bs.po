@@ -31,7 +31,7 @@ msgstr ""
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_salary_rule.py:0
+#: code:addons/payroll/models/hr_salary_rule.py
 #, python-format
 msgid ""
 "\n"
@@ -40,10 +40,13 @@ msgid ""
 "\n"
 "%(err)s\n"
 msgstr ""
+"Wrong python code defined for salary rule %(nm)s (%(code)s) for employee %(ee)s.\n"
+"Here is the error received:\n"
+"%(err)s"
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_salary_rule.py:0
+#: code:addons/payroll/models/hr_salary_rule.py
 #, python-format
 msgid ""
 "\n"
@@ -52,6 +55,9 @@ msgid ""
 "\n"
 "%(err)s\n"
 msgstr ""
+"Wrong python condition defined for salary rule %(nm)s (%(code)s) for employee %(ee)s.\n"
+"Here is the error received:\n"
+"%(err)s"
 
 #. module: payroll
 #. odoo-python
@@ -89,6 +95,10 @@ msgid ""
 "                                            result_qty = worked_days.WORK100.number_of_days\n"
 "                                        </code>"
 msgstr ""
+"<code>\n"
+"result = contract.wage\n"
+"result_qty = worked_days.WORK100.number_of_days\n"
+"</code>"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -98,6 +108,10 @@ msgid ""
 "                                            result_rate = 10.0\n"
 "                                        </code>"
 msgstr ""
+"<code>\n"
+"result = contract.wage\n"
+"result_rate = 10.0\n"
+"</code>"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -105,12 +119,15 @@ msgid ""
 "<code>categories:</code> contains the sum of amount of all rules belonging "
 "to that category"
 msgstr ""
+"<code>categories:</code> contains the sum of amount of all rules belonging "
+"to that category"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
 msgid ""
 "<code>contract:</code> contains current contract object data (hr.contract)"
 msgstr ""
+"<code>contract:</code> contains current contract object data (hr.contract)"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -118,12 +135,15 @@ msgid ""
 "<code>current_contract:</code> contains values related/calculated for "
 "current contract"
 msgstr ""
+"<code>current_contract:</code> contains values related/calculated for "
+"current contract"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
 msgid ""
 "<code>employee:</code> contains current employee object data (hr.employee)"
 msgstr ""
+"<code>employee:</code> contains current employee object data (hr.employee)"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -133,19 +153,22 @@ msgstr "<code>inputs:</code> contains the computed input data"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
 msgid "<code>payroll:</code> contains miscellaneous values related to payroll"
-msgstr "<code>payroll:</code> contains miscellaneous values related to payroll"
+msgstr ""
+"<code>payroll:</code> contains miscellaneous values related to payroll"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
 msgid ""
 "<code>payslip:</code> contains current payslip object data (hr.payslip)"
 msgstr ""
+"<code>payslip:</code> contains current payslip object data (hr.payslip)"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
 msgid ""
 "<code>payslips:</code> contains payslips data (Payslips - Browsable Object)"
 msgstr ""
+"<code>payslips:</code> contains payslips data (Payslips - Browsable Object)"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -158,6 +181,8 @@ msgid ""
 "<code>result:</code> the returned value should be in this variable. It "
 "matches with \"amount\" column."
 msgstr ""
+"<code>result:</code> the returned value should be in this variable. It "
+"matches with \"amount\" column."
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -165,6 +190,8 @@ msgid ""
 "<code>result_name:</code> overrides the current name of the rule and allows "
 "to make dynamic names"
 msgstr ""
+"<code>result_name:</code> overrides the current name of the rule and allows "
+"to make dynamic names"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -172,6 +199,8 @@ msgid ""
 "<code>result_qty:</code> the quantity of units that will be multiplied to "
 "\"result\""
 msgstr ""
+"<code>result_qty:</code> the quantity of units that will be multiplied to "
+"\"result\""
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -184,6 +213,8 @@ msgid ""
 "<code>result_rules:</code> contains the values of previusly computed lines "
 "(qty, rate, amount, total)"
 msgstr ""
+"<code>result_rules:</code> contains the values of previusly computed lines "
+"(qty, rate, amount, total)"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -196,6 +227,8 @@ msgid ""
 "<code>tools:</code> contains tools and libraries which help with "
 "mathematical operations"
 msgstr ""
+"<code>tools:</code> contains tools and libraries which help with "
+"mathematical operations"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -218,6 +251,17 @@ msgid ""
 "    </div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"        <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"            Poštovani/a <t t-out=\"object.employee_id.name\"></t>,\n"
+"            <br><br>\n"
+"            U prilogu se nalazi platna lista za <t t-out=\"object.payslip_run_id.name\"></t>.\n"
+"            <br><br>\n"
+"            Ne ustručavajte se kontaktirati nas ako imate bilo kakvih pitanja.\n"
+"            <br><br>\n"
+"            <t t-out=\"user.signature\"></t>\n"
+"        </p>\n"
+"    </div>\n"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.view_hr_payslip_by_employees
@@ -229,6 +273,12 @@ msgid ""
 "                            on Payslips Run.\n"
 "                        </span>"
 msgstr ""
+"<span colspan=\"2\" nolabel=\"1\">\n"
+"This wizard will generate payslips for all selected employee(s)\n"
+"based on the dates and credit note\n"
+"specified\n"
+"on Payslips Run.\n"
+"</span>"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -432,9 +482,9 @@ msgstr "Dozvoli korisnicima da otkažu potvrđene platne liste."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_res_config_settings__allow_edit_payslip_lines
-#: model_terms:ir.ui.view,arch_db:payroll.res_config_settings_view_form
 msgid "Allow users to edit some payslip line fields manually"
-msgstr "Dozvoli korisnicima da ručno uređuju neka polja na stavkama platne liste"
+msgstr ""
+"Dozvoli korisnicima da ručno uređuju neka polja na stavkama platne liste"
 
 #. module: payroll
 #: model:hr.salary.rule.category,name:payroll.ALW
@@ -498,6 +548,7 @@ msgstr "Associated Salary Rules"
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: payroll
 #: model:hr.salary.rule.category,name:payroll.BASIC
 msgid "Basic"
@@ -600,6 +651,12 @@ msgid ""
 "                                    This functionality is useful for doing auxiliar calculations that are used as dependencies for the parent\n"
 "                                    salary rule (e.x. rules required for complex tax computation that needs data from several modules)."
 msgstr ""
+"Child rule functionality is useful when you need other rules to be computed before the parent one. <br/>\n"
+"This means that all salary rules declared as childs (parent of one rule) will be added to the computation\n"
+"if its parent rule is included in the salary structure. So child rules will only be computed if it's parent is\n"
+"computed. <br/>\n"
+"This functionality is useful for doing auxiliar calculations that are used as dependencies for the parent\n"
+"salary rule (e.x. rules required for complex tax computation that needs data from several modules)."
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payroll_structure__children_ids
@@ -848,6 +905,10 @@ msgid ""
 "mandatory anymore and thus the rules applied will be all the rules set on "
 "the structure of all contracts of the employee valid for the chosen period"
 msgstr ""
+"Definira pravila koja se moraju primijeniti na ovu platnu listu, u skladu sa"
+" odabranim ugovorom. Ako polje za ugovor ostavite praznim, ovo polje više "
+"nije obavezno, te će se primijeniti sva pravila postavljena u strukturi svih"
+" ugovora zaposlenika koji su važeći za odabrani period"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__note
@@ -960,14 +1021,16 @@ msgstr "Zaposleni"
 #: code:addons/payroll/models/hr_salary_rule_category.py:0
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rule Category."
-msgstr "Greška! Ne možete kreirati rekurzivne kategorije pravila obračuna plata."
+msgstr ""
+"Greška! Ne možete kreirati rekurzivne kategorije pravila obračuna plata."
 
 #. module: payroll
 #. odoo-python
 #: code:addons/payroll/models/hr_salary_rule.py:0
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rules."
-msgstr "Greška! Ne možete napraviti rekurzivnu hijerarhiju pravila obračuna plata."
+msgstr ""
+"Greška! Ne možete napraviti rekurzivnu hijerarhiju pravila obračuna plata."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip_line__register_id
@@ -1067,7 +1130,6 @@ msgstr "Grupiši po"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__has_message
-#: model:ir.model.fields,field_description:payroll.field_hr_payslip_run__has_message
 msgid "Has Message"
 msgstr "Ima poruku"
 
@@ -1153,12 +1215,15 @@ msgid ""
 "If you have doubts about coding salary rules, check the \"Help\" tab in this"
 " form."
 msgstr ""
+"If you have doubts about coding salary rules, check the \"Help\" tab in this"
+" form."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_res_config_settings__leaves_positive
-#: model_terms:ir.ui.view,arch_db:payroll.res_config_settings_view_form
 msgid "In payslip worked days, leave days/hours have positive values"
-msgstr "U odrađenim danima na platnoj listi, dani/sati odsustva imaju pozitivne vrijednosti"
+msgstr ""
+"U odrađenim danima na platnoj listi, dani/sati odsustva imaju pozitivne "
+"vrijednosti"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_view_form
@@ -1166,6 +1231,8 @@ msgid ""
 "In python definition in salary rules, you can write any code like you will do\n"
 "                                    in python. Any methematical operation or python function is supported."
 msgstr ""
+"In python definition in salary rules, you can write any code like you will do\n"
+"in python. Any methematical operation or python function is supported."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__credit_note
@@ -1370,7 +1437,6 @@ msgstr "Neto plata"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_calendar_event_id
-#: model:ir.model.fields,field_description:payroll.field_hr_payslip_run__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 msgstr "Kaldendarski događaj slijedeće aktivnosti"
 
@@ -1446,29 +1512,34 @@ msgstr "Oficir"
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/wizard/hr_payslip_change_state.py:0
+#: code:addons/payroll/wizard/hr_payslip_change_state.py
 #, python-format
 msgid ""
 "Only draft payslips can be verified,the payslip %(nm)s is in %(st)s state"
 msgstr ""
+"Only draft payslips can be verified,the payslip %(nm)s is in %(st)s state"
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/wizard/hr_payslip_change_state.py:0
+#: code:addons/payroll/wizard/hr_payslip_change_state.py
 #, python-format
 msgid ""
 "Only payslips in states verify or draft can be confirmed, the payslip %(nm)s"
 " is in %(st)s state"
 msgstr ""
+"Only payslips in states verify or draft can be confirmed, the payslip %(nm)s"
+" is in %(st)s state"
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/wizard/hr_payslip_change_state.py:0
+#: code:addons/payroll/wizard/hr_payslip_change_state.py
 #, python-format
 msgid ""
 "Only rejected payslips can be reset to draft, the payslip %(nm)s is in "
 "%(st)s state"
 msgstr ""
+"Only rejected payslips can be reset to draft, the payslip %(nm)s is in "
+"%(st)s state"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_view_form
@@ -1516,10 +1587,11 @@ msgstr "Skupni obračun"
 msgid "PaySlip Details"
 msgstr "Detalji obračuna"
 
+# taken from hr.po
 #. module: payroll
 #: model:ir.actions.act_window,name:payroll.action_payslip_lines_contribution_register
 msgid "PaySlip Lines"
-msgstr "Stavke obračuna"
+msgstr "Prigkaz stavki registra isplata"
 
 #. module: payroll
 #: model:ir.actions.report,print_report_name:payroll.action_contribution_register
@@ -1671,6 +1743,7 @@ msgstr "Odrađeni dani obračunskog listića"
 msgid ""
 "Payslip for {{object.payslip_run_id.name}} from {{object.company_id.name}}"
 msgstr ""
+"Platna lista za {{object.payslip_run_id.name}} od {{object.company_id.name}}"
 
 #. module: payroll
 #. odoo-python
@@ -1734,7 +1807,6 @@ msgstr "Prevent Compute on Confirm"
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_res_config_settings__prevent_compute_on_confirm
-#: model_terms:ir.ui.view,arch_db:payroll.res_config_settings_view_form
 msgid "Prevent payslips from being recomputed when confirming them"
 msgstr "Spriječi ponovno izračunavanje platnih listi prilikom njihove potvrde"
 
@@ -1871,13 +1943,11 @@ msgstr "Odbijeno"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payroll_structure__require_code
-#: model:ir.model.fields,field_description:payroll.field_hr_salary_rule_category__require_code
 msgid "Require code"
 msgstr "Require code"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip_line__require_code_and_category
-#: model:ir.model.fields,field_description:payroll.field_hr_salary_rule__require_code_and_category
 msgid "Require code and category"
 msgstr "Zahtijevaj šifru i kategoriju"
 
@@ -1888,7 +1958,6 @@ msgstr "Zahtijeva šifru/kategoriju za pravila, kategorije i strukture"
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_res_config_settings__require_code_and_category
-#: model_terms:ir.ui.view,arch_db:payroll.res_config_settings_view_form
 msgid "Require rule.code, rule.category, category.code, structure.code"
 msgstr "Zahtijeva rule.code, rule.category, category.code, structure.code"
 
@@ -1962,7 +2031,7 @@ msgstr "Salary Rules formula definition (Python)"
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_payslip.py:0
+#: code:addons/payroll/models/hr_payslip.py
 #, python-format
 msgid "Salary Slip of %(name)s for %(dt)s"
 msgstr "Salary Slip of %(name)s for %(dt)s"
@@ -2063,13 +2132,16 @@ msgstr "Status"
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__activity_state
-#: model:ir.model.fields,help:payroll.field_hr_payslip_run__activity_state
 msgid ""
 "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__struct_id
@@ -2084,6 +2156,9 @@ msgid ""
 "                                    Then, you have to use specific compute variables which will store the data\n"
 "                                    for salary rule computation."
 msgstr ""
+"The calculations should be performed using the objects and variables below.\n"
+"Then, you have to use specific compute variables which will store the data\n"
+"for salary rule computation."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip_line__code
@@ -2118,6 +2193,8 @@ msgid ""
 "The following objects and variables are available to you to use it in salary"
 " rules calculations."
 msgstr ""
+"The following objects and variables are available to you to use it in salary"
+" rules calculations."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip_line__condition_range_max
@@ -2133,7 +2210,7 @@ msgstr "Minimalan iznos, primjenjeno za ovo pravilo."
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/wizard/hr_payslip_change_state.py:0
+#: code:addons/payroll/wizard/hr_payslip_change_state.py
 #, python-format
 msgid "The payslip %(nm)s is already canceled please deselect it"
 msgstr "The payslip %(nm)s is already canceled please deselect it"
@@ -2236,30 +2313,36 @@ msgstr "Write salary rule notes or observations here..."
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_salary_rule.py:0
+#: code:addons/payroll/models/hr_salary_rule.py
 #, python-format
 msgid ""
 "Wrong percentage base or quantity defined for salary rule %(nm)s (%(code)s) "
 "for employee %(ee)s."
 msgstr ""
+"Wrong percentage base or quantity defined for salary rule %(nm)s (%(code)s) "
+"for employee %(ee)s."
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_salary_rule.py:0
+#: code:addons/payroll/models/hr_salary_rule.py
 #, python-format
 msgid ""
 "Wrong quantity defined for salary rule %(nm)s (%(code)s) for employee "
 "%(ee)s."
 msgstr ""
+"Wrong quantity defined for salary rule %(nm)s (%(code)s) for employee "
+"%(ee)s."
 
 #. module: payroll
 #. odoo-python
-#: code:addons/payroll/models/hr_salary_rule.py:0
+#: code:addons/payroll/models/hr_salary_rule.py
 #, python-format
 msgid ""
 "Wrong range condition defined for salary rule %(nm)s (%(code)s) for employee"
 " %(ee)s."
 msgstr ""
+"Wrong range condition defined for salary rule %(nm)s (%(code)s) for employee"
+" %(ee)s."
 
 #. module: payroll
 #. odoo-python
@@ -2280,7 +2363,8 @@ msgstr "You cannot delete a payslip which is not draft or cancelled"
 #: code:addons/payroll/wizard/hr_payroll_payslips_by_employees.py:0
 #, python-format
 msgid "You must select employee(s) to generate payslip(s)."
-msgstr "Morate odabrati jednog ili više zaposlenika da generišete platne listiće."
+msgstr ""
+"Morate odabrati jednog ili više zaposlenika da generišete platne listiće."
 
 #. module: payroll
 #. odoo-python
