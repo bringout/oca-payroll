@@ -896,7 +896,7 @@ msgstr "Prikazani naziv"
 #. module: payroll
 #: model:ir.model.fields.selection,name:payroll.selection__hr_payslip__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_run_view_search
@@ -1072,7 +1072,7 @@ msgstr "Bruto"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_line_view_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__has_message
@@ -1232,19 +1232,19 @@ msgstr ""
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_res_config_settings__leaves_positive
