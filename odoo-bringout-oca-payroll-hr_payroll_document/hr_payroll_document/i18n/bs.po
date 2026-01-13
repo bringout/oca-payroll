@@ -108,17 +108,17 @@ msgstr "Identifikacioni ID"
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_payroll_document
 #: model:ir.model.fields,field_description:hr_payroll_document.field_ir_attachment_payroll_custom__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_payroll_document
 #. odoo-python

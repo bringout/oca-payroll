@@ -78,7 +78,7 @@ msgstr "Zatvoreno"
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: hr_payroll_period
 #: model_terms:ir.ui.view,arch_db:hr_payroll_period.view_hr_fiscalyear_form
@@ -289,17 +289,17 @@ msgstr "Zadnji"
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields,field_description:hr_payroll_period.field_hr_fiscalyear__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_payroll_period
 #: model:ir.model.fields.selection,name:hr_payroll_period.selection__hr_fiscalyear__payment_weekday__1

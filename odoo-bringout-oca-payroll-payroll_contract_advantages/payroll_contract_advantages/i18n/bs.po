@@ -105,17 +105,17 @@ msgstr "ID"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__advantage_lower_bound
