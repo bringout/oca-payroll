@@ -1924,7 +1924,7 @@ msgstr "Salary Rules formula definition (Python)"
 #: code:addons/payroll/models/hr_payslip.py:0
 #, python-format
 msgid "Salary Slip of %(name)s for %(dt)s"
-msgstr ""
+msgstr "Platna lista za %(name)s, %(dt)s"
 
 # taken from hr.po
 #. module: payroll
