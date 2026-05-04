@@ -410,7 +410,7 @@ msgstr "Potrebna akcija"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip_line__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_ids
@@ -420,17 +420,17 @@ msgstr "Aktivnosti"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Aktivnost izuzeća - dekoracija"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_state
 msgid "Activity State"
-msgstr "Stanje aktivnosti"
+msgstr "Status aktivnosti"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ikona za tip aktivnosti"
+msgstr "Ikona tipa aktivnosti"
 
 #. module: payroll
 #: model_terms:ir.actions.act_window,help:payroll.hr_contribution_register_action
@@ -668,7 +668,7 @@ msgstr ""
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payroll_structure__children_ids
 msgid "Children"
-msgstr "Podstavke"
+msgstr "Dijete"
 
 # taken from hr.po
 #. module: payroll
@@ -704,7 +704,7 @@ msgstr "Preduzeća"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: payroll
 #: model:hr.salary.rule.category,name:payroll.COMP
@@ -835,13 +835,13 @@ msgstr "Datum"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__date_from
 msgid "Date From"
-msgstr "Od datuma"
+msgstr "Datum od"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__date_to
 msgid "Date To"
-msgstr "Do datuma"
+msgstr "Datum do"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_view_form
@@ -902,7 +902,7 @@ msgstr "Detalji po kategoriji pravila plate"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: payroll
@@ -926,7 +926,7 @@ msgstr "Gotovi obračuni"
 #. module: payroll
 #: model:ir.model.fields.selection,name:payroll.selection__hr_payslip__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 # taken from hr.po
 #. module: payroll
@@ -1020,7 +1020,7 @@ msgstr "Pratioci"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__activity_type_icon
@@ -1039,7 +1039,7 @@ msgstr "Na primjer, unesite 50.0 da primjenite procenat od 50%"
 #: code:addons/payroll/report/report_contribution_register.py:0
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Sadržaj form nedostaje, ovaj izvještaj ne može biti odštampan."
+msgstr "Nedostaju podaci sa forme, izvještaj se ne može ispisati."
 
 # taken from hr.po
 #. module: payroll
@@ -1122,17 +1122,17 @@ msgstr "Ikona"
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona koja indicira aktivnost izuzeća."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je potvrđeno, nove poruke traže vaš pregled."
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je potvrđeno, neke poruke imaju grešku u isporuci."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 # taken from hr.po
 #. module: payroll
@@ -1196,7 +1196,7 @@ msgstr "Interna bilješka"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__message_is_follower
 msgid "Is Follower"
-msgstr "Da li je pratilac"
+msgstr "Je pratilac"
 
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_run_view_kanban
@@ -1234,7 +1234,7 @@ msgstr ""
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register____last_update
 msgid "Last Modified on"
-msgstr "Posljednja promjena"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: payroll
@@ -1298,7 +1298,7 @@ msgstr "Vaučer za topli obrok"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__message_ids
@@ -1326,13 +1326,13 @@ msgstr "Mjesečno"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Krajnji rok za moje aktivnosti"
+msgstr "Rok moje aktivnosti"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 # taken from hr.po
 #. module: payroll
@@ -1354,17 +1354,17 @@ msgstr "Kaldendarski događaj slijedeće aktivnosti"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_summary
 msgid "Next Activity Summary"
-msgstr "Sljedeća aktivnost - rezime"
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_type_id
 msgid "Next Activity Type"
-msgstr "Sljedeća aktivnost - tip"
+msgstr "Tip sljedeće aktivnosti"
 
 # taken from hr.po
 #. module: payroll
@@ -1411,7 +1411,7 @@ msgstr "Broj poruka koje zahtijevaju aktivnost"
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama u isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 # taken from hr.po
 #. module: payroll
@@ -1455,7 +1455,7 @@ msgstr "Ostali ulazi"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payroll_structure__parent_id
 msgid "Parent"
-msgstr "Nadređeni"
+msgstr "Nadređeno"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip_line__parent_line_id
@@ -1859,7 +1859,7 @@ msgstr "Zahtijeva rule.code, rule.category, category.code, structure.code"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__activity_user_id
 msgid "Responsible User"
-msgstr "Odgovorno lice"
+msgstr "Odgovorni korisnik"
 
 # taken from hr.po
 #. module: payroll
@@ -1991,7 +1991,7 @@ msgstr "Pošalji platnu listu e-poštom"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip_input__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: payroll
@@ -2030,9 +2030,9 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Prekoračenje: Rok izvršenja je već prošao\n"
-"Danas: Datum za aktivnost je danas\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
 # taken from hr.po
@@ -2138,7 +2138,7 @@ msgstr "Ukupno"
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tip izuzetka aktivnosti na stavci."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip_line__sequence
@@ -2159,12 +2159,12 @@ msgstr "Na čekanju"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__website_message_ids
 msgid "Website Messages"
-msgstr "Proruke na websajtu"
+msgstr "Poruke web stranice"
 
 #. module: payroll
 #: model:ir.model.fields,help:payroll.field_hr_payslip__website_message_ids
 msgid "Website communication history"
-msgstr "Pregled komunikacije na webstajtu"
+msgstr "Historija komunikacije web stranice"
 
 # taken from hr.po
 #. module: payroll

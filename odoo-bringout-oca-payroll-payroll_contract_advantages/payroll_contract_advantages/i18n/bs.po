@@ -25,14 +25,14 @@ msgstr "Predložak pogodnosti"
 
 #. module: payroll_contract_advantages
 #. odoo-python
-#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py
+#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py:0
 #, python-format
 msgid "Advantage amount can't be greater than upper bound limit."
 msgstr "Iznos pogodnosti ne može biti veći od gornje granice."
 
 #. module: payroll_contract_advantages
 #. odoo-python
-#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py
+#: code:addons/payroll_contract_advantages/models/hr_contract_advantage.py:0
 #, python-format
 msgid "Advantage amount can't be less than lower bound limit."
 msgstr "Iznos pogodnosti ne može biti manji od donje granice."
@@ -80,7 +80,7 @@ msgstr "Zadana vrijednost"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: payroll_contract_advantages
 #: model:ir.model,name:payroll_contract_advantages.model_hr_contract
@@ -105,7 +105,7 @@ msgstr "ID"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_uid
@@ -130,7 +130,7 @@ msgstr "Donja granica koju je ovlastio poslodavac za ovu pogodnost"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage_template__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: payroll_contract_advantages
 #: model:ir.model,name:payroll_contract_advantages.model_hr_payslip
