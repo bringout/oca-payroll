@@ -80,7 +80,7 @@ msgstr "Zadana vrijednost"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: payroll_contract_advantages
 #: model:ir.model,name:payroll_contract_advantages.model_hr_contract
@@ -105,17 +105,17 @@ msgstr "ID"
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: payroll_contract_advantages
 #: model:ir.model.fields,field_description:payroll_contract_advantages.field_hr_contract_advantage__advantage_lower_bound

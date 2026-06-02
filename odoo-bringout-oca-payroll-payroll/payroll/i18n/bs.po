@@ -594,7 +594,7 @@ msgstr "Obračuni"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_change_state_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: payroll
@@ -698,7 +698,7 @@ msgstr "Šifra:"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_view_search
 msgid "Companies"
-msgstr "Preduzeća"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: payroll
@@ -902,7 +902,7 @@ msgstr "Detalji po kategoriji pravila plate"
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: payroll
@@ -1234,19 +1234,19 @@ msgstr ""
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_contribution_register__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_res_config_settings__leaves_positive
@@ -1315,7 +1315,7 @@ msgstr "Minimalni raspon"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_payslip_view_form
 msgid "Miscellaneous"
-msgstr "Ostalo"
+msgstr "Razno"
 
 # taken from hr.po
 #. module: payroll
@@ -1378,7 +1378,7 @@ msgstr "Standarni radni dani plaćeni 100%"
 #. module: payroll
 #: model_terms:ir.ui.view,arch_db:payroll.hr_salary_rule_category_view_form
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: payroll
 #: model:ir.model.fields,field_description:payroll.field_hr_payslip__message_needaction_counter
