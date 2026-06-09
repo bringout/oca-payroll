@@ -5,7 +5,8 @@ from odoo import fields, models
 
 
 class HrContract(models.Model):
-    _inherit = "hr.contract"
+    # v19: hr.contract model merged into hr.version
+    _inherit = "hr.version"
     _description = "Employee Contract"
 
     analytic_account_id = fields.Many2one(

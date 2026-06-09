@@ -6,8 +6,8 @@
         <field name="inherit_id" ref="payroll.hr_payslip_view_form" />
         <field name="arch" type="xml">
             <field name="paid" position="after">
-                <field name="date" />
-                <field name="journal_id" required="1" />
+                <field name="date" readonly="state != 'draft'" />
+                <field name="journal_id" required="1" readonly="state != 'draft'" />
                 <field name="move_id" readonly="1" />
             </field>
         </field>
@@ -31,7 +31,7 @@
                             <field name="account_tax_id" />
                             <field
                                 name="tax_base_id"
-                                attrs="{'required': [('account_tax_id', '!=', False)]}"
+                                required="account_tax_id"
                             />
                         </group>
                     </group>
@@ -40,19 +40,20 @@
         </field>
     </record>
     <!-- Contract View -->
+    <!-- v19: hr.contract -> hr.version; the struct_id-bearing form is payroll's.
+         Anchor the Accounting group after struct_id (top_info_right group no
+         longer exists in the redesigned v19 version form). -->
     <record id="hr_contract_view_form" model="ir.ui.view">
-        <field name="name">hr.contract.view.form.inherit</field>
-        <field name="model">hr.contract</field>
-        <field name="inherit_id" ref="hr_contract.hr_contract_view_form" />
+        <field name="name">hr.version.view.form.inherit.payroll_account</field>
+        <field name="model">hr.version</field>
+        <field name="inherit_id" ref="payroll.hr_contract_view_form" />
         <field name="arch" type="xml">
-            <xpath expr="//group[@name='top_info_right']" position="after">
-                <group string="Accounting">
-                    <field
-                        name="analytic_account_id"
-                        groups="analytic.group_analytic_accounting"
-                    />
-                    <field name="journal_id" />
-                </group>
+            <xpath expr="//field[@name='struct_id']" position="after">
+                <field
+                    name="analytic_account_id"
+                    groups="analytic.group_analytic_accounting"
+                />
+                <field name="journal_id" />
             </xpath>
         </field>
     </record>
