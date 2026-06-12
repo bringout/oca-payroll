@@ -1,6 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 
 class HrContract(models.Model):
@@ -9,8 +9,8 @@ class HrContract(models.Model):
     allows to configure different Salary structure
     """
 
-    _inherit = "hr.contract"
-    _description = "Employee Contract"
+    _inherit = "hr.version"
+    _description = "Employee Contract / Version"
 
     struct_id = fields.Many2one("hr.payroll.structure", string="Salary Structure")
     schedule_pay = fields.Selection(
@@ -28,9 +28,15 @@ class HrContract(models.Model):
         default="monthly",
         help="Defines the frequency of the wage payment.",
     )
-    resource_calendar_id = fields.Many2one(
-        required=True, help="Employee's working schedule."
-    )
+    resource_calendar_id = fields.Many2one(help="Employee's working schedule.")
+
+    @api.model
+    def _get_whitelist_fields_from_template(self):
+        whitelist = super()._get_whitelist_fields_from_template()
+        for field_name in ("schedule_pay", "struct_id"):
+            if field_name not in whitelist:
+                whitelist.append(field_name)
+        return whitelist
 
     def get_all_structures(self):
         """
@@ -38,8 +44,5 @@ class HrContract(models.Model):
                  hierachy (parent=False first, then first level children and
                  so on) and without duplicates
         """
-        structures = self.mapped("struct_id")
-        if not structures:
-            return []
-        # YTI TODO return browse records
-        return list(set(structures._get_parent_structure().ids))
+        # TODO: remove, too simple and not used
+        return self.struct_id.get_structure_with_parents()
